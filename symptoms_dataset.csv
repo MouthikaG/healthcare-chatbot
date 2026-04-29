@@ -1,0 +1,204 @@
+
+# ============================
+# 1. GENERAL / COMMON SYMPTOMS
+# ============================
+fever|high temperature,"Fever may indicate infection.","Rest and drink fluids.",0
+chills,"Chills often accompany fever.","Stay warm and hydrated.",0
+fatigue|tiredness,"Common in illness or stress.","Rest and stay hydrated.",0
+weakness,"General weakness has many causes.","Rest and eat light meals.",0
+loss of appetite,"May occur during infections.","Eat small, light meals.",0
+unintentional weight loss,"May indicate underlying illness.","Seek medical check.",1
+night sweats,"May occur with infection or stress.","Stay cool and hydrated.",0
+body aches|body pain,"Common with viral infections.","Rest and consider warm compress.",0
+dehydration,"Caused by low fluid intake.","Drink water or ORS.",1
+sweating excessively,"May be heat or anxiety related.","Stay cool and drink water.",0
+cold sweats,"Can indicate low sugar or stress.","Sit and hydrate.",1
+
+# ============================
+# 2. RESPIRATORY SYMPTOMS
+# ============================
+cough,"Cough may be viral or allergic.","Stay hydrated.",0
+dry cough,"Often viral or irritant.","Avoid dust and smoke.",0
+wet cough|productive cough,"Mucus-related cough.","Hydrate and rest.",0
+cold|common cold,"Usually viral.","Rest and warm fluids.",0
+runny nose,"Common with cold or allergy.","Stay hydrated.",0
+blocked nose|nasal congestion,"Common cold symptom.","Use steam inhalation.",0
+sneezing,"Often allergy-related.","Avoid allergens if known.",0
+shortness of breath|difficulty breathing,"May indicate serious issue.","Seek medical help.",1
+wheezing,"Common in asthma.","Avoid triggers and rest.",1
+chest tightness,"May be respiratory or cardiac.","Seek medical evaluation.",1
+breathing fast|rapid breathing,"Can indicate distress.","Seek emergency help.",1
+persistent cough,"May be infection-related.","Seek medical check.",0
+
+# ============================
+# 3. ENT (EAR, NOSE, THROAT)
+# ============================
+sore throat|throat pain,"Common with infection.","Warm liquids.",0
+throat dryness,"Irritation or dehydration.","Drink warm water.",0
+difficulty swallowing,"May indicate throat swelling.","Eat soft foods.",1
+loss of voice,"Often from overuse.","Rest your voice.",0
+ear pain|earache,"Often infection or wax.","Avoid inserting objects.",0
+itchy ear,"May be dryness or wax.","Do not use cotton buds.",0
+ear ringing|tinnitus,"Often noise-related.","Avoid loud sounds.",0
+hearing loss,"May be wax or infection.","Seek check if persistent.",0
+nasal bleeding|nosebleed,"Often from dryness.","Pinch nose and lean forward.",0
+
+# ============================
+# 4. DIGESTIVE & GASTROINTESTINAL
+# ============================
+stomach pain|abdominal pain,"Common in many conditions.","Eat light and hydrate.",0
+bloating|gas,"Often diet-related.","Avoid fizzy drinks.",0
+indigestion|dyspepsia,"Often from heavy meals.","Avoid oily foods.",0
+heartburn|acid reflux,"Stomach acid irritation.","Avoid lying after meals.",0
+nausea,"Common digestive symptom.","Take small sips of fluids.",0
+vomiting,"Can cause dehydration.","Drink ORS in small sips.",1
+diarrhea,"Often infection or food.","Drink ORS.",0
+constipation,"Low fiber or dehydration.","Drink water, eat fiber.",0
+food poisoning,"Usually contaminated food.","Hydrate and rest.",0
+gastric pain,"Common after large meals.","Avoid spicy foods.",0
+loss of taste,"May follow infections.","Rest and hydrate.",0
+loss of smell,"Common in viral infections.","Monitor symptoms.",0
+acidic taste,"May be reflux.","Avoid acidic foods.",0
+belching|burping,"Gas buildup.","Eat slowly.",0
+hiccups,"Usually harmless.","Sip cold water.",0
+bloody stool,"May indicate serious issue.","Seek urgent care.",1
+black stool,"Possible bleeding.","Seek emergency care.",1
+rectal pain,"May be irritation.","Increase fiber intake.",0
+anal itching,"Often irritation.","Keep area clean and dry.",0
+
+# ============================
+# 5. NEUROLOGICAL SYMPTOMS
+# ============================
+headache,"Common from stress or dehydration.","Drink water and rest.",0
+migraine,"Severe headache episodes.","Rest in a dark room.",0
+dizziness|lightheaded,"May be dehydration.","Sit and drink fluids.",0
+vertigo,"Spinning sensation.","Sit still and avoid sudden moves.",0
+fainting|passed out,"Can be serious.","Seek immediate medical help.",1
+confusion|disorientation,"May indicate serious issue.","Seek urgent care.",1
+memory loss,"May indicate neurological issue.","Seek medical evaluation.",1
+numbness|tingling,"Often nerve compression.","Change posture.",0
+hand tremor|shaking hands,"Often stress or fatigue.","Rest and limit caffeine.",0
+speech difficulty|slurred speech,"Could be stroke symptom.","Seek emergency help.",1
+vision loss,"Possible serious condition.","Seek emergency care.",1
+
+# ============================
+# 6. SKIN / DERMATOLOGY
+# ============================
+rash|skin rash,"Common in allergy or irritation.","Avoid scratching.",0
+itchy skin|pruritus,"Often allergy or dryness.","Use moisturizer.",0
+dry skin,"Often weather-related.","Moisturize regularly.",0
+oily skin,"Common skin type.","Clean gently.",0
+acne|pimples,"Common skin issue.","Keep skin clean.",0
+hives,"Allergic skin reaction.","Avoid triggers.",1
+eczema,"Chronic dry skin patches.","Moisturize frequently.",0
+psoriasis,"Scaly skin condition.","Moisturize and avoid irritants.",0
+skin redness,"Often irritation.","Avoid hot water.",0
+sunburn,"Caused by UV exposure.","Apply cool aloe.",0
+bruising easily,"May indicate fragility.","Avoid bumps.",0
+skin peeling,"Often dryness or sunburn.","Moisturize and avoid heat.",0
+swollen skin,"May be allergy or injury.","Apply cool compress.",0
+
+# ============================
+# 7. MUSCULOSKELETAL
+# ============================
+back pain,"Often from strain.","Use warm compress.",0
+lower back pain,"Posture or strain.","Avoid heavy lifting.",0
+neck pain|stiff neck,"Often muscle tension.","Stretch gently.",0
+shoulder pain,"May be overuse.","Rest joint.",0
+knee pain,"Often strain or injury.","Avoid excessive bending.",0
+joint pain,"Common in strain or arthritis.","Rest and avoid heavy load.",0
+swollen joints,"May be inflammation.","Apply cold pack.",0
+muscle cramps,"Often from dehydration.","Hydrate and stretch.",0
+leg cramps,"Common at night.","Stretch and drink fluids.",0
+arm pain,"May be muscle strain.","Rest arm.",0
+foot pain,"Often strain or tight shoes.","Rest and elevate.",0
+wrist pain,"Often overuse.","Rest wrist.",0
+
+# ============================
+# 8. URINARY & KIDNEY
+# ============================
+burning urination|pain while urinating,"Common UTI symptom.","Drink water.",0
+frequent urination,"Often UTI or high fluids.","Stay hydrated.",0
+dark urine,"Often dehydration.","Drink more fluids.",0
+yellow urine,"Common sign of dehydration.","Increase water intake.",0
+bloody urine,"Possible infection or stones.","Seek urgent care.",1
+lower back kidney pain,"Possible kidney issue.","Seek evaluation.",1
+urine odor changes,"Often dehydration.","Hydrate well.",0
+incontinence,"Loss of bladder control.","Seek medical check.",0
+
+# ============================
+# 9. CARDIAC & CIRCULATION
+# ============================
+chest pain,"Can indicate heart issue.","Seek emergency care.",1
+heart flutter,"May be stress or dehydration.","Rest and hydrate.",0
+palpitations|rapid heartbeat,"May be anxiety or arrhythmia.","Avoid caffeine.",1
+high blood pressure,"Often no symptoms.","Monitor regularly.",1
+low blood pressure,"May cause dizziness.","Hydrate and rest.",0
+blue lips,"Low oxygen levels.","Seek emergency care.",1
+swelling feet|leg swelling,"Can be circulation-related.","Elevate legs.",0
+cold hands|cold feet,"May be low circulation.","Warm gently.",0
+
+# ============================
+# 10. ENDOCRINE / HORMONAL
+# ============================
+hot flashes,"Often hormonal.","Stay cool and hydrated.",0
+excessive hunger,"May be sugar-related.","Eat balanced meals.",0
+excessive thirst,"May be dehydration or sugar imbalance.","Hydrate.",1
+hair loss,"May be hormonal or stress-related.","Eat balanced diet.",0
+
+# ============================
+# 11. EYE-RELATED
+# ============================
+itchy eyes,"Often allergy-related.","Avoid rubbing.",0
+watery eyes,"May be irritation or allergy.","Avoid allergens.",0
+dry eyes,"Often screen-related.","Blink more, use drops.",0
+red eye|eye redness,"Common irritation.","Avoid rubbing.",0
+eye pain,"Can be serious.","Seek medical evaluation.",1
+blurred vision,"Often eye strain.","Rest eyes.",1
+floaters,"Common but monitor.","Seek check if sudden.",0
+light sensitivity|photophobia,"Common with migraine.","Rest in dim light.",0
+
+# ============================
+# 12. INFECTIOUS / IMMUNE
+# ============================
+flu symptoms,"Common viral illness.","Rest and fluids.",0
+viral infection signs,"General viral symptoms.","Hydrate and rest.",0
+swollen lymph nodes,"Often sign of infection.","Rest and hydrate.",0
+hand-foot-mouth symptoms,"Common viral issue.","Maintain hygiene.",0
+pink eye|conjunctivitis,"Contagious eye infection.","Avoid touching eyes.",0
+
+# ============================
+# 13. MENTAL HEALTH
+# ============================
+anxiety,"May cause fast heartbeat.","Practice slow breathing.",0
+panic attack,"Sudden anxiety episode.","Slow deep breaths.",0
+stress symptoms,"Common in daily life.","Take short breaks.",0
+insomnia|difficulty sleeping,"Common in stress.","Avoid screens before bed.",0
+irritability,"Can be stress-related.","Rest and relax.",0
+low mood,"Common emotional symptom.","Talk to someone you trust.",0
+
+# ============================
+# 14. EMERGENCY SYMPTOMS
+# ============================
+severe chest pain,"May indicate heart attack.","Seek emergency care.",1
+severe headache,"Can be serious.","Seek urgent evaluation.",1
+vomiting blood,"Possible internal bleeding.","Emergency care needed.",1
+coughing blood,"May indicate lung issue.","Seek emergency help.",1
+seizure,"Electrical brain event.","Seek emergency care.",1
+unconscious|passed out,"Serious medical event.","Emergency help needed.",1
+severe bleeding,"Dangerous blood loss.","Apply pressure, seek help.",1
+vision loss sudden,"Possible stroke.","Seek emergency care.",1
+inability to breathe,"Life-threatening.","Emergency immediately.",1
+
+# ============================
+# 15. MISCELLANEOUS
+# ============================
+itchy scalp,"Often dandruff.","Use mild shampoo.",0
+dry scalp,"Often weather-related.","Moisturize scalp.",0
+cracked heels,"Common dryness.","Apply foot cream.",0
+swollen face,"May be allergy.","Seek help if breathing affected.",1
+burning skin sensation,"May be nerve irritation.","Avoid heat exposure.",0
+high temperature,"May indicate fever.","Cool down and hydrate.",0
+low energy,"Common general symptom.","Rest.",0
+restlessness,"Often stress-related.","Practice relaxation.",0
+sensitive skin,"Irritates easily.","Use gentle products.",0
