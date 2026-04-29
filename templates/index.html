@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ bot_name or "MedAI" }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidepanel" id="sidepanel">
+      <div class="side-top">
+        <button id="collapse-btn" class="collapse-btn" aria-label="Collapse sidebar">«</button>
+        <div class="brand">
+          <div class="brand-icon">🩺</div>
+          <div class="brand-text">
+            <div class="brand-title">MedAI</div>
+            <div class="brand-sub">Info</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-body">
+        <ul class="info-list">
+          <li>Gentle, AI-style symptom helper</li>
+          <li>For learning & guidance only</li>
+          <li>Not a medical diagnosis</li>
+          <li>In an emergency, contact local services</li>
+        </ul>
+
+        <hr/>
+
+        <div class="prompts-title">💡 Example prompts</div>
+        <div class="prompts">
+          <button class="prompt">I have fever and body pain for 3 days</button>
+          <button class="prompt">I feel chest pain and shortness of breath</button>
+          <button class="prompt">I have stomach pain and diarrhoea</button>
+        </div>
+
+        <div class="side-footer">
+          <button id="clear-chat" class="clear-btn">🧹 Clear chat</button>
+        </div>
+      </div>
+    </aside>
+
+    <button id="expand-btn" class="expand-btn" aria-label="Open sidebar">☰</button>
+
+    <main class="main-area">
+      <header class="topbar"></header>
+
+      <section class="chat-header">
+        <div class="header-card">
+          <div class="header-left">
+            <div class="bubble-icon">💬</div>
+            <div>
+              <div class="header-title">MedAI – Healthcare Chatbot</div>
+              <div class="header-sub">A calm, neutral space to talk about your symptoms. I’ll help you organise what you’re feeling.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="chat-area" class="chat-area" role="log" aria-live="polite">
+      </section>
+
+      <footer class="composer-area">
+        <form id="input-form" class="composer" onsubmit="return false;">
+          <div class="input-wrap">
+            <input id="message-input" type="text" placeholder="Describe your symptoms..." autocomplete="off" />
+            <button id="send-btn" class="send-btn" type="button" aria-label="Send">➤</button>
+          </div>
+        </form>
+      </footer>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
